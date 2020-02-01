@@ -9,4 +9,4 @@ def my_all?(collection)
   end
 end
 
-my_all?([1, 2, 3])  {|i| i < 3}
+[1, 2, 3].all?  {|i| i < 3}
